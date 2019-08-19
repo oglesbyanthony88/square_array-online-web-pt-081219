@@ -1,3 +1,6 @@
 def square_array(array)
-  array.each
+  counter = 0
+  array.each do array[counter].sqrt
+  counter += 1
+end
 end
